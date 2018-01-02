@@ -5,7 +5,7 @@ adafruit-pca9685-pip:
   fedora:
     pip:
       packages: [adafruit-pca9685]
-  centos:
+  rhel:
     pip:
       packages: [adafruit-pca9685]
 catkin_pkg:
@@ -14,23 +14,23 @@ cmakelint-pip:
   debian:
     pip:
       packages: [cmakelint]
-  centos:
+  rhel:
     pip:
       packages: [cmakelint]
 cppcheck-junit-pip:
   debian:
     pip:
       packages: [cppcheck-junit]
-  centos:
+  rhel:
     pip:
       packages: [cppcheck-junit]
 cython:
   debian: [cython]
   fedora: [Cython]
   gentoo: [dev-python/cython]
-  centos: [cython]
+  rhel: [cython]
 ds4drv-pip:
-  centos:
+  rhel:
     pip:
       packages: [ds4drv]
 epydoc:
@@ -43,18 +43,18 @@ epydoc:
   osx:
     pip:
       packages: [epydoc]
-  centos: [python-epydoc]
+  rhel: [python-epydoc]
 gunicorn:
   debian: [gunicorn]
   fedora: [python-gunicorn]
   gentoo: [www-servers/gunicorn]
-  centos: [gunicorn]
+  rhel: [gunicorn]
 ipython:
   debian: [ipython]
   fedora: [python-ipython]
   gentoo: [dev-python/ipython]
   macports: [py27-ipython]
-  centos:
+  rhel:
     lucid: [ipython]
     maverick: [ipython]
     natty: [ipython]
@@ -71,7 +71,7 @@ ipython:
     xenial: [ipython]
 libgv-python:
   debian: [libgv-python]
-  centos: [libgv-python]
+  rhel: [libgv-python]
 mercurial:
   osx:
     pip:
@@ -88,7 +88,7 @@ paramiko:
     pip:
       packages: [paramiko]
   rhel: [python-paramiko]
-  centos: [python-paramiko]
+  rhel: [python-paramiko]
 pika:
   debian: [python-pika]
   gentoo: [dev-python/pika]
@@ -96,21 +96,21 @@ pika:
   osx:
     pip:
       packages: [pika]
-  centos: [python-pika]
+  rhel: [python-pika]
 pydocstyle:
   debian:
     buster: [pydocstyle]
     stretch: [pydocstyle]
-  centos:
+  rhel:
     xenial: [pydocstyle]
 pyflakes3:
   debian:
     buster: [pyflakes3]
     stretch: [pyflakes3]
-  centos:
+  rhel:
     xenial: [pyflakes3]
 pyper-pip:
-  centos:
+  rhel:
     pip:
       packages: [pyper]
 pyqt4-dev-tools:
@@ -118,12 +118,12 @@ pyqt4-dev-tools:
   debian: [pyqt4-dev-tools]
   fedora: [PyQt4-devel]
   gentoo: [dev-python/PyQt4]
-  centos: [pyqt4-dev-tools]
+  rhel: [pyqt4-dev-tools]
 pyqt5-dev-tools:
   debian: [pyqt5-dev-tools]
   fedora: [python-qt5-devel]
   gentoo: [dev-python/PyQt5]
-  centos: [pyqt5-dev-tools]
+  rhel: [pyqt5-dev-tools]
 pyro4:
   arch: [python2-pyro]
   debian: [python2-pyro4]
@@ -132,16 +132,16 @@ pyro4:
   osx:
     pip:
       packages: [pyro4]
-  centos: [python2-pyro4]
+  rhel: [python2-pyro4]
 pyros-setup-pip:
-  centos:
+  rhel:
     pip:
       packages: [pyros-setup]
 pyside-tools:
   debian: [pyside-tools]
   fedora: [pyside-tools]
   gentoo: [dev-python/pyside-tools]
-  centos:
+  rhel:
     lucid: [pyside-tools]
     maverick: [pyside-tools]
     natty: [pyside-tools]
@@ -166,7 +166,7 @@ python:
   slackware:
     slackpkg:
       packages: [python]
-  centos:
+  rhel:
     lucid: [python-dev]
     maverick: [python-dev]
     natty: [python-dev]
@@ -194,7 +194,7 @@ python-adafruit-bno055-pip:
   fedora:
     pip:
       packages: [adafruit_bno055]
-  centos:
+  rhel:
     pip:
       packages: [adafruit_bno055]
 python-alembic:
@@ -204,7 +204,7 @@ python-alembic:
     stretch: [python-alembic]
   fedora: [python-alembic]
   gentoo: [dev-python/alembic]
-  centos:
+  rhel:
     trusty: [alembic]
     utopic: [python-alembic]
     vivid: [python-alembic]
@@ -217,7 +217,7 @@ python-amqp:
     stretch: [python-amqp]
   fedora: [python-amqp]
   gentoo: [dev-python/py-amqp]
-  centos:
+  rhel:
     trusty: [python-amqp]
     utopic: [python-amqp]
     vivid: [python-amqp]
@@ -230,27 +230,27 @@ python-annoy-pip:
   fedora:
     pip:
       packages: [annoy]
-  centos:
+  rhel:
     pip:
       packages: [annoy]
 python-anyjson:
   debian: [python-anyjson]
   fedora: [python-anyjson]
   gentoo: [dev-python/anyjson]
-  centos: [python-anyjson]
+  rhel: [python-anyjson]
 python-apparmor:
   debian: [python-apparmor]
   gentoo: ['sys-libs/libapparmor[python]']
-  centos: [python-apparmor]
+  rhel: [python-apparmor]
 python-argcomplete:
   fedora: [python-argcomplete]
   gentoo: [dev-python/argcomplete]
-  centos: [python-argcomplete]
+  rhel: [python-argcomplete]
 python-argh:
   debian: [python-argh]
   fedora: [python-argh]
   gentoo: [dev-python/argh]
-  centos: [python-argh]
+  rhel: [python-argh]
 python-argparse:
   arch: [python2]
   debian:
@@ -269,7 +269,7 @@ python-argparse:
   slackware:
     pip:
       packages: [argparse]
-  centos:
+  rhel:
     lucid: [python-argparse]
     maverick: [python-argparse]
     natty: [python-argparse]
@@ -307,7 +307,7 @@ python-autobahn:
   osx:
     pip:
       packages: [autobahn]
-  centos:
+  rhel:
     lucid:
       pip:
         packages: [autobahn]
@@ -340,12 +340,12 @@ python-avahi:
   debian: [python-avahi]
   fedora: [avahi-ui-tools]
   gentoo: ['net-dns/avahi[python]']
-  centos: [python-avahi]
+  rhel: [python-avahi]
 python-babel:
   debian: [python-babel]
   fedora: [python-babel]
   gentoo: [dev-python/Babel]
-  centos:
+  rhel:
     precise: [python-babel]
     trusty: [python-babel]
     utopic: [python-babel]
@@ -356,7 +356,7 @@ python-backports.ssl-match-hostname:
   debian: [python-backports.ssl-match-hostname]
   fedora: [python-backports.ssl-match-hostname]
   gentoo: [dev-python/backports-ssl-match-hostname]
-  centos:
+  rhel:
     saucy:
       pip:
         packages: [backports.ssl_match_hostname]
@@ -372,13 +372,13 @@ python-beautifulsoup:
   debian: [python-beautifulsoup]
   fedora: [python-BeautifulSoup]
   gentoo: [dev-python/beautifulsoup]
-  centos: [python-beautifulsoup]
+  rhel: [python-beautifulsoup]
 python-bitstring:
   debian:
     buster: [python-bitstring]
     stretch: [python-bitstring]
   gentoo: [dev-python/bitstring]
-  centos:
+  rhel:
     wily: [python-bitstring]
     xenial: [python-bitstring]
 python-bitstring-pip:
@@ -391,19 +391,19 @@ python-bitstring-pip:
   osx:
     pip:
       packages: [bitstring]
-  centos:
+  rhel:
     pip:
       packages: [bitstring]
 python-blinker:
   debian: [python-blinker]
   fedora: [python-blinker]
   gentoo: [dev-python/blinker]
-  centos: [python-blinker]
+  rhel: [python-blinker]
 python-bloom:
   debian: [python-bloom]
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
-  centos:
+  rhel:
     artful: [python-bloom]
     precise: [python-bloom]
     quantal: [python-bloom]
@@ -423,28 +423,28 @@ python-bluez:
   fedora: [pybluez]
   gentoo: [dev-python/pybluez]
   rhel: [python-bluez]
-  centos: [python-bluez]
+  rhel: [python-bluez]
 python-bottle:
   debian: [python-bottle]
   fedora: [python-bottle]
   gentoo: [dev-python/bottle]
-  centos: [python-bottle]
+  rhel: [python-bottle]
 python-box2d:
   debian: [python-box2d]
   fedora: [pybox2d]
-  centos: [python-box2d]
+  rhel: [python-box2d]
 python-bs4:
   debian: [python-bs4]
   fedora: [python-beautifulsoup4]
   gentoo: ['=dev-python/beautifulsoup-4*']
-  centos: [python-bs4]
+  rhel: [python-bs4]
 python-bson:
   debian: [python-bson]
   fedora: [python-bson]
   osx:
     pip:
       packages: [bson]
-  centos: [python-bson]
+  rhel: [python-bson]
 python-cairo:
   arch: [python2-cairo]
   debian: [python-cairo]
@@ -454,10 +454,10 @@ python-cairo:
   slackware:
     slackpkg:
       packages: [pycairo]
-  centos: [python-cairo]
+  rhel: [python-cairo]
 python-catkin-lint:
   fedora: [python-catkin_lint]
-  centos: [python-catkin-lint]
+  rhel: [python-catkin-lint]
 python-catkin-pkg:
   arch: [python2-catkin_pkg]
   debian: [python-catkin-pkg]
@@ -471,7 +471,7 @@ python-catkin-pkg:
   slackware:
     pip:
       packages: [catkin-pkg]
-  centos:
+  rhel:
     lucid: [python-catkin-pkg]
     maverick: [python-catkin-pkg]
     natty: [python-catkin-pkg]
@@ -495,26 +495,26 @@ python-catkin-sphinx:
   osx:
     pip:
       packages: [catkin_sphinx]
-  centos: [python-catkin-sphinx]
+  rhel: [python-catkin-sphinx]
 python-catkin-tools:
   arch: [python2-catkin-tools]
   fedora: [python-catkin_tools]
   osx:
     pip:
       packages: [catkin_tools]
-  centos: [python-catkin-tools]
+  rhel: [python-catkin-tools]
 python-celery:
   debian: [python-celery]
   fedora: [python-celery]
   gentoo: [dev-python/celery]
-  centos: [python-celery]
+  rhel: [python-celery]
 python-certifi:
   debian:
     buster: [python-certifi]
     stretch: [python-certifi]
   fedora: [python-certifi]
   gentoo: [dev-python/certifi]
-  centos:
+  rhel:
     xenial: [python-certifi]
     yakkety: [python-certifi]
 python-chainer-pip:
@@ -527,7 +527,7 @@ python-chainer-pip:
   osx:
     pip:
       packages: [chainer]
-  centos:
+  rhel:
     pip:
       packages: [chainer]
 python-chainercv-pip:
@@ -543,7 +543,7 @@ python-chainercv-pip:
     pip:
       depends: [cython, python-numpy]
       packages: [chainercv]
-  centos:
+  rhel:
     pip:
       depends: [cython, python-numpy]
       packages: [chainercv]
@@ -551,17 +551,17 @@ python-cheetah:
   debian: [python-cheetah]
   fedora: [python-cheetah]
   gentoo: [dev-python/cheetah]
-  centos: [python-cheetah]
+  rhel: [python-cheetah]
 python-cherrypy:
   debian: [python-cherrypy3]
   fedora: [python-cherrypy]
   gentoo: [dev-python/cherrypy]
-  centos: [python-cherrypy3]
+  rhel: [python-cherrypy3]
 python-clearsilver:
-  centos: [python-clearsilver]
+  rhel: [python-clearsilver]
   debian: [python-clearsilver]
   fedora: [python-clearsilver]
-  centos:
+  rhel:
     lucid: [python-clearsilver]
     maverick: [python-clearsilver]
     natty: [python-clearsilver]
@@ -586,7 +586,7 @@ python-click:
   osx:
     pip:
       packages: [click]
-  centos:
+  rhel:
     saucy:
       pip:
         packages: [click]
@@ -612,7 +612,7 @@ python-colorama:
   osx:
     pip:
       packages: [colorama]
-  centos:
+  rhel:
     artful: [python-colorama]
     quantal: [python-colorama]
     raring: [python-colorama]
@@ -628,7 +628,7 @@ python-concurrent.futures:
   debian: [python-concurrent.futures]
   fedora: [python-futures]
   gentoo: [virtual/python-futures]
-  centos: [python-concurrent.futures]
+  rhel: [python-concurrent.futures]
 python-cookiecutter:
   debian:
     buster: [python-cookiecutter]
@@ -641,12 +641,12 @@ python-cookiecutter:
   osx:
     pip:
       packages: [cookiecutter]
-  centos: [python-cookiecutter]
+  rhel: [python-cookiecutter]
 python-couchdb:
   debian: [python-couchdb]
   fedora: [python-couchdb]
   gentoo: [dev-python/couchdb-python]
-  centos: [python-couchdb]
+  rhel: [python-couchdb]
 python-coverage:
   arch: [python2-coverage]
   debian: [python-coverage]
@@ -657,7 +657,7 @@ python-coverage:
     pip:
       packages: [coverage]
   slackware: [coverage]
-  centos:
+  rhel:
     lucid: [python-coverage]
     maverick: [python-coverage]
     natty: [python-coverage]
@@ -684,7 +684,7 @@ python-cpplint:
   osx:
     pip:
       packages: [cpplint]
-  centos:
+  rhel:
     pip:
       packages: [cpplint]
 python-crccheck-pip:
@@ -697,7 +697,7 @@ python-crccheck-pip:
   osx:
     pip:
       packages: [crccheck]
-  centos:
+  rhel:
     pip:
       packages: [crccheck]
 python-crypto:
@@ -708,7 +708,7 @@ python-crypto:
   osx:
     pip:
       packages: [pycrypto]
-  centos:
+  rhel:
     artful: [python-crypto]
     artful_python3: [python3-crypto]
     lucid: [python-crypto]
@@ -735,14 +735,14 @@ python-crypto:
 python-cryptography:
   debian: [python-cryptography]
   gentoo: [dev-python/cryptography]
-  centos: [python-cryptography]
+  rhel: [python-cryptography]
 python-cwiid:
   arch: [cwiid]
   debian: [python-cwiid]
   fedora: [cwiid]
   gentoo: ['app-misc/cwiid[python]']
   rhel: [cwiid]
-  centos: [python-cwiid]
+  rhel: [python-cwiid]
 python-dateutil:
   arch: [python2-dateutil]
   debian: [python-dateutil]
@@ -751,7 +751,7 @@ python-dateutil:
   osx:
     pip:
       packages: [python-dateutil]
-  centos:
+  rhel:
     lucid: [python-dateutil]
     maverick: [python-dateutil]
     natty: [python-dateutil]
@@ -769,13 +769,13 @@ python-dateutil:
 python-deap-pip:
   debian:
     pip: [deap]
-  centos:
+  rhel:
     pip: [deap]
 python-debian:
   debian: [python-debian]
   fedora: [python-debian]
   gentoo: [dev-python/python-debian]
-  centos:
+  rhel:
     artful: [python-debian]
     artful_python3: [python3-debian]
     bionic: [python-debian]
@@ -799,10 +799,10 @@ python-deepdiff-pip:
     pip: [deepdiff]
   fedora:
     pip: [deepdiff]
-  centos:
+  rhel:
     pip: [deepdiff]
 python-defer-pip:
-  centos:
+  rhel:
     pip:
       packages: [defer]
 python-defusedxml:
@@ -817,13 +817,13 @@ python-defusedxml:
   slackware:
     pip:
       packages: [defusedxml]
-  centos: [python-defusedxml]
+  rhel: [python-defusedxml]
 python-dlib:
   debian:
     pip: [dlib]
   fedora:
     pip: [dlib]
-  centos:
+  rhel:
     pip: [dlib]
 python-docopt:
   debian:
@@ -832,14 +832,14 @@ python-docopt:
     stretch: [python-docopt]
   fedora: [python-docopt]
   gentoo: [dev-python/docopt]
-  centos:
+  rhel:
     pip: [docopt]
 python-docutils:
   arch: [python2-docutils]
   debian: [python-docutils]
   fedora: [python-docutils]
   gentoo: [dev-python/docutils]
-  centos:
+  rhel:
     lucid: [python-docutils]
     maverick: [python-docutils]
     natty: [python-docutils]
@@ -858,15 +858,15 @@ python-docutils:
     xenial: [python-docutils]
 python-docx:
   fedora: [python-docx]
-  centos:
+  rhel:
     pip: [python-docx]
 python-dxfgrabber-pip:
-  centos:
+  rhel:
     pip: [dxfgrabber]
 python-easygui:
   debian: [python-easygui]
   fedora: [python-easygui]
-  centos: [python-easygui]
+  rhel: [python-easygui]
 python-empy:
   arch: [python2-empy]
   debian: [python-empy]
@@ -880,7 +880,7 @@ python-empy:
   slackware:
     pip:
       packages: [empy]
-  centos:
+  rhel:
     lucid: [python-empy]
     maverick: [python-empy]
     natty: [python-empy]
@@ -901,7 +901,7 @@ python-enum:
     jessie: [python-enum]
     wheezy: [python-enum]
   fedora: [python-enum]
-  centos: [python-enum]
+  rhel: [python-enum]
 python-enum34:
   debian:
     buster: [python-enum34]
@@ -909,15 +909,15 @@ python-enum34:
     stretch: [python-enum34]
   fedora: [python-enum34]
   gentoo: [virtual/python-enum34]
-  centos: [python-enum34]
+  rhel: [python-enum34]
 python-enum34-pip:
-  centos:
+  rhel:
     pip:
       packages: [enum34]
 python-espeak:
   debian: [python-espeak]
   fedora: [python-espeak]
-  centos:
+  rhel:
     lucid: [python-espeak]
     maverick: [python-espeak]
     natty: [python-espeak]
@@ -930,7 +930,7 @@ python-espeak:
     trusty_python3: [python3-espeak]
 python-evdev:
   gentoo: [dev-python/python-evdev]
-  centos:
+  rhel:
     trusty: [python-evdev]
     utopic: [python-evdev]
     vivid: [python-evdev]
@@ -941,12 +941,12 @@ python-expiringdict:
   fedora:
     pip:
       packages: [expiringdict]
-  centos: [python-expiringdict]
+  rhel: [python-expiringdict]
 python-falcon:
   debian: [python-falcon]
   fedora: [python-falcon]
   gentoo: [dev-python/falcon]
-  centos: [python-falcon]
+  rhel: [python-falcon]
 python-fcn-pip:
   debian:
     pip:
@@ -960,7 +960,7 @@ python-fcn-pip:
     pip:
       depends: [gfortran]
       packages: [fcn]
-  centos:
+  rhel:
     pip:
       depends: [liblapack-dev]
       packages: [fcn]
@@ -968,7 +968,7 @@ python-fixtures:
   debian: [python-fixtures]
   fedora: [python-fixtures]
   gentoo: [dev-python/fixtures]
-  centos: [python-fixtures]
+  rhel: [python-fixtures]
 python-flake8:
   debian:
     buster: [python-flake8]
@@ -981,14 +981,14 @@ python-flake8:
     '24': [python-flake8]
     heisenbug: [python-flake8]
   gentoo: [dev-python/flake8]
-  centos:
+  rhel:
     trusty: [python-flake8]
     trusty_python3: [python3-flake8]
 python-flask:
   debian: [python-flask]
   fedora: [python-flask]
   gentoo: [dev-python/flask]
-  centos:
+  rhel:
     lucid: [python-flask]
     maverick: [python-flask]
     natty: [python-flask]
@@ -1014,21 +1014,21 @@ python-flask-appbuilder-pip:
   osx:
     pip:
       packages: [flask-appbuilder]
-  centos:
+  rhel:
     pip:
       packages: [flask-appbuilder]
 python-flask-cors-pip:
   debian:
     pip:
       packages: [flask-cors]
-  centos:
+  rhel:
     pip:
       packages: [flask-cors]
 python-flask-restful:
   debian: [python-flask-restful]
   fedora: [python-flask-restful]
   gentoo: [dev-python/flask-restful]
-  centos:
+  rhel:
     saucy:
       pip:
         packages: [flask-restful]
@@ -1056,7 +1056,7 @@ python-freezegun-pip:
   osx:
     pip:
       packages: [freezegun]
-  centos:
+  rhel:
     pip:
       packages: [freezegun]
 python-future:
@@ -1066,7 +1066,7 @@ python-future:
   osx:
     pip:
       packages: [future]
-  centos:
+  rhel:
     trusty:
       pip:
         packages: [future]
@@ -1087,7 +1087,7 @@ python-fuzzywuzzy-pip:
   fedora:
     pip:
       packages: [fuzzywuzzy]
-  centos:
+  rhel:
     pip:
       packages: [fuzzywuzzy]
 python-fysom:
@@ -1101,7 +1101,7 @@ python-fysom:
   osx:
     pip:
       packages: [fysom]
-  centos:
+  rhel:
     pip:
       packages: [fysom]
 python-gTTS-pip:
@@ -1111,11 +1111,11 @@ python-gTTS-pip:
   fedora:
     pip:
       packages: [gTTS]
-  centos:
+  rhel:
     pip:
       packages: [gTTS]
 python-gcloud-pip:
-  centos:
+  rhel:
     pip:
       packages: [gcloud]
 python-gdown-pip:
@@ -1128,38 +1128,38 @@ python-gdown-pip:
   osx:
     pip:
       packages: [gdown]
-  centos:
+  rhel:
     pip:
       packages: [gdown]
 python-genshi:
   debian: [python-genshi]
   fedora: [python-genshi]
   gentoo: [dev-python/genshi]
-  centos: [python-genshi]
+  rhel: [python-genshi]
 python-geographiclib:
   debian: [python-geographiclib]
   fedora: [python-GeographicLib]
-  centos: [python-geographiclib]
+  rhel: [python-geographiclib]
 python-gevent:
   debian: [python-gevent]
   fedora: [python-gevent]
   gentoo: [dev-python/gevent]
-  centos: [python-gevent]
+  rhel: [python-gevent]
 python-gi:
   arch: [python2-gobject]
   debian: [python-gi]
   fedora: [pygobject3]
   gentoo: [dev-python/pygobject]
-  centos: [python-gi]
+  rhel: [python-gi]
 python-github-pip:
   osx:
     pip:
       packages: [PyGithub]
-  centos:
+  rhel:
     pip:
       packages: [PyGithub]
 python-gitpython-pip:
-  centos:
+  rhel:
     pip:
       packages: [gitpython]
 python-gnupg:
@@ -1167,7 +1167,7 @@ python-gnupg:
   debian: [python-gnupg]
   fedora: [python-gnupg]
   gentoo: [dev-python/python-gnupg]
-  centos: [python-gnupg]
+  rhel: [python-gnupg]
 python-google-cloud-vision-pip:
   debian:
     pip:
@@ -1175,14 +1175,14 @@ python-google-cloud-vision-pip:
   fedora:
     pip:
       packages: [google-cloud-vision]
-  centos:
+  rhel:
     pip:
       packages: [google-cloud-vision]
 python-googleapi:
   debian: [python-googleapi]
   fedora: [google-api-python-client]
   gentoo: [dev-python/google-api-python-client]
-  centos:
+  rhel:
     trusty: [python-googleapi]
     utopic: [python-googleapi]
     vivid: [python-googleapi]
@@ -1199,7 +1199,7 @@ python-gpiozero:
     stretch:
       pip:
         packages: [gpiozero]
-  centos:
+  rhel:
     artful: [python-gpiozero]
     bionic: [python-gpiozero]
     trusty:
@@ -1228,13 +1228,13 @@ python-graphviz-pip:
   fedora:
     pip:
       packages: [graphviz]
-  centos:
+  rhel:
     pip:
       packages: [graphviz]
 python-gridfs:
   debian: [python-gridfs]
   fedora: [python-pymongo-gridfs]
-  centos:
+  rhel:
     lucid: [python-gridfs]
     maverick: [python-gridfs]
     natty: [python-gridfs]
@@ -1252,7 +1252,7 @@ python-gst:
     wheezy:  [python-gst0.10]
   fedora: [gstreamer-python]
   gentoo: [dev-python/gst-python]
-  centos:
+  rhel:
     lucid: [python-gst0.10]
     maverick: [python-gst0.10]
     natty: [python-gst0.10]
@@ -1270,7 +1270,7 @@ python-gst-1.0:
     jessie:  [python-gst-1.0]
     stretch:  [python-gst-1.0]
   gentoo: ['dev-python/gst-python:1.0']
-  centos: [python-gst-1.0]
+  rhel: [python-gst-1.0]
 python-gtk2:
   arch: [pygtk]
   debian: [python-gtk2]
@@ -1283,7 +1283,7 @@ python-gtk2:
     pip:
       packages: []
   rhel: [pygtk2]
-  centos:
+  rhel:
     lucid: [python-gtk2]
     maverick: [python-gtk2]
     natty: [python-gtk2]
@@ -1297,7 +1297,7 @@ python-h5py:
   debian: [python-h5py]
   fedora: [h5py]
   gentoo: [dev-python/h5py]
-  centos:
+  rhel:
     lucid: [python-h5py]
     precise: [python-h5py]
     quantal: [python-h5py]
@@ -1313,7 +1313,7 @@ python-httplib2:
   debian: [python-httplib2]
   fedora: [python-httplib2]
   gentoo: [dev-python/httplib2]
-  centos:
+  rhel:
     lucid: [python-httplib2]
     maverick: [python-httplib2]
     natty: [python-httplib2]
@@ -1328,7 +1328,7 @@ python-hypothesis:
   debian: [python-hypothesis]
   fedora: [python-hypothesis]
   gentoo: [dev-python/hypothesis]
-  centos:
+  rhel:
     xenial: [python-hypothesis]
     xenial_python3: [python3-hypothesis]
     yakkety: [python-hypothesis]
@@ -1360,7 +1360,7 @@ python-imaging:
   slackware:
     slackpkg:
       packages: [python-pillow]
-  centos:
+  rhel:
     lucid: [python-imaging]
     maverick: [python-imaging]
     natty: [python-imaging]
@@ -1384,7 +1384,7 @@ python-imaging:
 python-impacket:
   debian: [python-impacket]
   fedora: [python-impacket]
-  centos:
+  rhel:
     lucid: [python-impacket]
     maverick: [python-impacket]
     natty: [python-impacket]
@@ -1397,13 +1397,13 @@ python-impacket:
     utopic: [python-impacket]
     vivid: [python-impacket]
 python-inject-pip:
-  centos:
+  rhel:
     pip:
       packages: [inject]
 python-ipdb:
   debian: [python-ipdb]
   gentoo: [dev-python/ipdb]
-  centos:
+  rhel:
     packages: [python-ipdb]
 python-itsdangerous:
   debian:
@@ -1412,38 +1412,38 @@ python-itsdangerous:
     stretch: [python-itsdangerous]
   fedora: [python-itsdangerous]
   gentoo: [dev-python/itsdangerous]
-  centos: [python-itsdangerous]
+  rhel: [python-itsdangerous]
 python-jasmine-pip:
-  centos:
+  rhel:
     pip:
       packages: [jasmine]
 python-jinja2:
   debian: [python-jinja2]
   fedora: [python-jinja2]
   gentoo: ['=dev-python/jinja-2*']
-  centos: [python-jinja2]
+  rhel: [python-jinja2]
 python-jira-pip:
-  centos:
+  rhel:
     pip:
       packages: [jira]
 python-jsonpyes-pip:
   debian:
     pip:
       packages: [jsonpyes]
-  centos:
+  rhel:
     pip:
       packages: [jsonpyes]
 python-jsonref-pip:
-  centos:
+  rhel:
     pip:
       packages: [jsonref]
 python-jsonschema:
   debian: [python-jsonschema]
   fedora: [python-jsonschema]
   gentoo: [dev-python/jsonschema]
-  centos: [python-jsonschema]
+  rhel: [python-jsonschema]
 python-jsonschema-pip:
-  centos:
+  rhel:
     pip:
       packages: [jsonschema]
 python-kdtree:
@@ -1452,7 +1452,7 @@ python-kdtree:
     jessie: [python-kdtree]
     stretch: [python-kdtree]
   fedora: [libkdtree++-python]
-  centos:
+  rhel:
     pip:
       packages: [kdtree]
 python-kitchen:
@@ -1463,7 +1463,7 @@ python-kitchen:
   osx:
     pip:
       packages: [kitchen]
-  centos:
+  rhel:
     lucid: [python-kitchen]
     maverick: [python-kitchen]
     natty: [python-kitchen]
@@ -1480,19 +1480,19 @@ python-kitchen:
     yakkety: [python-kitchen]
     zesty: [python-kitchen]
 python-kombu-pip:
-  centos:
+  rhel:
     pip:
       packages: [kombu]
 python-levenshtein:
   debian: [python-levenshtein]
   fedora: [python-Levenshtein]
   gentoo: [dev-python/python-levenshtein]
-  centos: [python-levenshtein]
+  rhel: [python-levenshtein]
 python-libpcap:
   debian: [python-libpcap]
   fedora: [pylibpcap]
   gentoo: [dev-python/pylibpcap]
-  centos:
+  rhel:
     lucid: [python-libpcap]
     maverick: [python-libpcap]
     natty: [python-libpcap]
@@ -1506,7 +1506,7 @@ python-libpgm-pip:
   osx:
     pip:
       packages: [libpgm]
-  centos:
+  rhel:
     pip:
       packages: [libpgm]
 python-lindypy-pip:
@@ -1516,14 +1516,14 @@ python-lindypy-pip:
   fedora:
     pip:
       packages: [lindypy]
-  centos:
+  rhel:
     pip:
       packages: [lindypy]
 python-lttngust:
   debian:
     pip:
       packages: [python-lttngust]
-  centos:
+  rhel:
     pip:
       packages: [python-lttngust]
 python-luis-pip:
@@ -1536,7 +1536,7 @@ python-luis-pip:
   osx:
     pip:
       packages: [luis]
-  centos:
+  rhel:
     pip:
       packages: [luis]
 python-lxml:
@@ -1547,35 +1547,35 @@ python-lxml:
   osx:
     pip:
       packages: [lxml]
-  centos: [python-lxml]
+  rhel: [python-lxml]
 python-lzf-pip:
   debian:
     pip:
       packages: [python-lzf]
-  centos:
+  rhel:
     pip:
       packages: [python-lzf]
 python-mahotas:
-  centos:
+  rhel:
     pip:
       packages: [mahotas]
 python-mako:
   debian: [python-mako]
   fedora: [python-mako]
   gentoo: [dev-python/mako]
-  centos: [python-mako]
+  rhel: [python-mako]
 python-mapnik:
   debian: [python-mapnik]
   fedora: [mapnik-python]
-  centos: [python-mapnik]
+  rhel: [python-mapnik]
 python-markdown:
   debian: [python-markdown]
   fedora: [python-markdown]
   gentoo: [dev-python/markdown]
-  centos: [python-markdown]
+  rhel: [python-markdown]
 python-marshmallow:
   fedora: [python-marshmallow]
-  centos:
+  rhel:
     pip:
       packages: [marshmallow]
 python-matplotlib:
@@ -1592,7 +1592,7 @@ python-matplotlib:
       packages: [matplotlib]
   rhel: [python-matplotlib]
   slackware: [matplotlib]
-  centos:
+  rhel:
     lucid: [python-matplotlib]
     maverick: [python-matplotlib]
     natty: [python-matplotlib]
@@ -1620,7 +1620,7 @@ python-mechanize:
   debian: [python-mechanize]
   fedora: [python-mechanize]
   gentoo: [dev-python/mechanize]
-  centos:
+  rhel:
     lucid: [python-mechanize]
     maverick: [python-mechanize]
     natty: [python-mechanize]
@@ -1642,7 +1642,7 @@ python-mock:
     pip:
       packages: [mock]
   slackware: [mock]
-  centos:
+  rhel:
     lucid: [python-mock]
     maverick: [python-mock]
     natty: [python-mock]
@@ -1666,7 +1666,7 @@ python-msgpack:
   debian: [python-msgpack]
   fedora: [python-msgpack]
   gentoo: [dev-python/msgpack]
-  centos:
+  rhel:
     precise: [msgpack-python]
     raring: [msgpack-python]
     saucy: [msgpack-python]
@@ -1685,13 +1685,13 @@ python-msgpack:
 python-multicast:
   fedora:
     pip: [py-multicast]
-  centos:
+  rhel:
     pip: [py-multicast]
 python-mysqldb:
   debian: [python-mysqldb]
   fedora: [python-mysql]
   gentoo: [dev-python/mysqlclient]
-  centos: [python-mysqldb]
+  rhel: [python-mysqldb]
 python-netaddr:
   debian: [python-netaddr]
   fedora:
@@ -1701,7 +1701,7 @@ python-netaddr:
   osx:
     pip:
       packages: [netaddr]
-  centos:
+  rhel:
     lucid: [python-netaddr]
     maverick:
       pip:
@@ -1737,7 +1737,7 @@ python-netifaces:
     pip:
       packages: [netifaces]
   slackware: [netifaces]
-  centos:
+  rhel:
     lucid: [python-netifaces]
     maverick: [python-netifaces]
     natty: [python-netifaces]
@@ -1763,13 +1763,13 @@ python-networkmanager:
     buster: [python-networkmanager]
     jessie: [python-networkmanager]
     stretch: [python-networkmanager]
-  centos: [python-networkmanager]
+  rhel: [python-networkmanager]
 python-networkx:
   arch: [python2-networkx]
   debian: [python-networkx]
   fedora: [python-networkx]
   gentoo: [dev-python/networkx]
-  centos:
+  rhel:
     lucid: [python-networkx]
     maverick: [python-networkx]
     natty: [python-networkx]
@@ -1799,7 +1799,7 @@ python-nose:
     pip:
       packages: [nose]
   slackware: [nose]
-  centos:
+  rhel:
     lucid: [python-nose]
     maverick: [python-nose]
     natty: [python-nose]
@@ -1831,7 +1831,7 @@ python-numpy:
       packages: [numpy]
   rhel: [numpy]
   slackware: [numpy]
-  centos:
+  rhel:
     lucid: [python-numpy]
     maverick: [python-numpy]
     natty: [python-numpy]
@@ -1852,7 +1852,7 @@ python-numpy-stl-pip:
   osx:
     pip:
       packages: [numpy-stl]
-  centos:
+  rhel:
     pip:
       packages: [numpy-stl]
 python-numpydoc:
@@ -1860,7 +1860,7 @@ python-numpydoc:
   debian: [python-numpydoc]
   gentoo: [dev-python/numpydoc]
   opensuse: [python-numpydoc]
-  centos:
+  rhel:
     artful: [python-numpydoc]
     trusty: [python-numpydoc]
     xenial: [python-numpydoc]
@@ -1871,7 +1871,7 @@ python-oauth2:
     wheezy:  [python-oauth2]
   fedora: [python-oauth2]
   gentoo: [dev-python/oauth2]
-  centos:
+  rhel:
     precise: [python-oauth2]
     quantal: [python-oauth2]
     raring: [python-oauth2]
@@ -1883,7 +1883,7 @@ python-oauth2client:
   debian: [python-oauth2client]
   fedora: [python-oauth2client]
   gentoo: [dev-python/oauth2client]
-  centos:
+  rhel:
     trusty: [python-oauth2client]
     utopic: [python-oauth2client]
     vivid: [python-oauth2client]
@@ -1894,7 +1894,7 @@ python-omniorb:
   debian: [python-omniorb, python-omniorb-omg, omniidl-python]
   fedora: [python-omniORB, omniORB-devel]
   gentoo: ['net-misc/omniORB[python]']
-  centos:
+  rhel:
     lucid: [python-omniorb2, python-omniorb2-omg, omniidl4-python]
     maverick: [python-omniorb, python-omniorb-omg, omniidl-python]
     natty: [python-omniorb, python-omniorb-omg, omniidl-python]
@@ -1915,7 +1915,7 @@ python-opencv:
   gentoo: ['media-libs/opencv[python]']
   opensuse: [python-opencv]
   slackware: [opencv]
-  centos: [python-opencv]
+  rhel: [python-opencv]
 python-opengl:
   arch: [python2-opengl]
   debian: [python-opengl]
@@ -1927,7 +1927,7 @@ python-opengl:
     pip:
       packages: [PyOpenGL]
   slackware: [PyOpenGL]
-  centos:
+  rhel:
     lucid: [python-opengl]
     maverick: [python-opengl]
     natty: [python-opengl]
@@ -1947,9 +1947,9 @@ python-opengl:
 python-openssl:
   debian: [python-openssl]
   gentoo: [dev-python/pyopenssl]
-  centos: [python-openssl]
+  rhel: [python-openssl]
 python-paho-mqtt-pip:
-  centos:
+  rhel:
     pip:
       packages: [paho-mqtt]
 python-pandas:
@@ -1957,7 +1957,7 @@ python-pandas:
   debian: [python-pandas]
   fedora: [python-pandas]
   gentoo: [dev-python/pandas]
-  centos: [python-pandas]
+  rhel: [python-pandas]
 python-paramiko:
   arch: [python2-paramiko]
   debian: [python-paramiko]
@@ -1971,7 +1971,7 @@ python-paramiko:
       packages: [paramiko]
   rhel: [python-paramiko]
   slackware: [paramiko]
-  centos:
+  rhel:
     lucid: [python-paramiko]
     maverick: [python-paramiko]
     natty: [python-paramiko]
@@ -1991,23 +1991,23 @@ python-passlib:
   debian: [python-passlib]
   fedora: [python-passlib]
   gentoo: [dev-python/passlib]
-  centos: [python-passlib]
+  rhel: [python-passlib]
 python-pastedeploy:
   debian: [python-pastedeploy]
   fedora: [python-paste-deploy]
   gentoo: [dev-python/pastedeploy]
-  centos: [python-pastedeploy]
+  rhel: [python-pastedeploy]
 python-path.py:
   gentoo: [dev-python/path-py]
   osx:
     pip:
       packages: [path.py]
-  centos:
+  rhel:
     pip:
       packages: [path.py]
 python-pathtools:
   debian: [python-pathtools]
-  centos:
+  rhel:
     artful: [python-pathtools]
     xenial: [python-pathtools]
     yakkety: [python-pathtools]
@@ -2017,7 +2017,7 @@ python-pcapy:
   debian: [python-pcapy]
   fedora: [pcapy]
   gentoo: [dev-python/pcapy]
-  centos:
+  rhel:
     lucid: [python-pcapy]
     maverick: [python-pcapy]
     natty: [python-pcapy]
@@ -2037,7 +2037,7 @@ python-pep8:
   osx:
     pip:
       packages: [pep8]
-  centos:
+  rhel:
     precise: [pep8]
     quantal: [pep8]
     raring: [pep8]
@@ -2062,7 +2062,7 @@ python-percol:
   osx:
     pip:
       packages: [percol]
-  centos:
+  rhel:
     pip:
       packages: [percol]
 python-periphery-pip:
@@ -2075,7 +2075,7 @@ python-periphery-pip:
   osx:
     pip:
       packages: [python-periphery]
-  centos:
+  rhel:
     pip:
       packages: [python-periphery]
 python-pexpect:
@@ -2083,7 +2083,7 @@ python-pexpect:
   debian: [python-pexpect]
   fedora: [pexpect]
   gentoo: [dev-python/pexpect]
-  centos:
+  rhel:
     lucid: [python-pexpect]
     maverick: [python-pexpect]
     natty: [python-pexpect]
@@ -2107,12 +2107,12 @@ python-pip:
   debian: [python-pip]
   fedora: [python-pip]
   gentoo: [dev-python/pip]
-  centos: [python-pip]
+  rhel: [python-pip]
 python-pkg-resources:
   debian: [python-pkg-resources]
-  centos: [python-pkg-resources]
+  rhel: [python-pkg-resources]
 python-planar-pip:
-  centos:
+  rhel:
     pip:
       packages: [planar]
 python-plyfile-pip:
@@ -2125,7 +2125,7 @@ python-plyfile-pip:
   osx:
     pip:
       packages: [plyfile]
-  centos:
+  rhel:
     pip:
       packages: [plyfile]
 python-progressbar:
@@ -2135,7 +2135,7 @@ python-progressbar:
   osx:
     pip:
       packages: [progressbar]
-  centos:
+  rhel:
     lucid: [python-progressbar]
     maverick: [python-progressbar]
     natty: [python-progressbar]
@@ -2157,13 +2157,13 @@ python-progressbar2-pip:
   fedora:
     pip:
       packages: [progressbar2]
-  centos:
+  rhel:
     pip:
       packages: [progressbar2]
 python-protobuf:
   debian: [python-protobuf]
   gentoo: [dev-python/protobuf-python]
-  centos: [python-protobuf]
+  rhel: [python-protobuf]
 python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
@@ -2175,7 +2175,7 @@ python-psutil:
     pip:
       packages: [psutil]
   slackware: [psutil]
-  centos:
+  rhel:
     lucid: [python-psutil]
     maverick: [python-psutil]
     natty: [python-psutil]
@@ -2196,7 +2196,7 @@ python-psycopg2:
   debian: [python-psycopg2]
   fedora: [python-psycopg2]
   gentoo: ['=dev-python/psycopg-2*']
-  centos:
+  rhel:
     lucid: [python-psycopg2]
     maverick: [python-psycopg2]
     natty: [python-psycopg2]
@@ -2221,7 +2221,7 @@ python-pyassimp:
     lion:
       homebrew:
         packages: [pyassimp]
-  centos:
+  rhel:
     lucid: []
     oneiric: []
     precise: [python-pyassimp]
@@ -2239,7 +2239,7 @@ python-pyaudio:
   debian: [python-pyaudio]
   fedora: [pyaudio]
   gentoo: [dev-python/pyaudio]
-  centos: [python-pyaudio]
+  rhel: [python-pyaudio]
 python-pydot:
   arch: [python2-pydot]
   debian: [python-pydot]
@@ -2251,7 +2251,7 @@ python-pydot:
     pip:
       packages: [pydot]
   slackware: [pydot]
-  centos:
+  rhel:
     lucid: [python-pydot]
     maverick: [python-pydot]
     natty: [python-pydot]
@@ -2270,13 +2270,13 @@ python-pydot:
 python-pyftpdlib:
   debian: [python-pyftpdlib]
   gentoo: [dev-python/pyftpdlib]
-  centos: [python-pyftpdlib]
+  rhel: [python-pyftpdlib]
 python-pygame:
   arch: [python2-pygame]
   debian: [python-pygame]
   fedora: [pygame-devel]
   gentoo: [dev-python/pygame]
-  centos: [python-pygame]
+  rhel: [python-pygame]
 python-pygithub3:
   debian:
     pip:
@@ -2284,7 +2284,7 @@ python-pygithub3:
   fedora:
     pip:
       packages: [pygithub3]
-  centos:
+  rhel:
     pip:
       packages: [pygithub3]
 python-pygps-pip:
@@ -2297,12 +2297,12 @@ python-pygps-pip:
   osx:
     pip:
       packages: [pyGPs]
-  centos:
+  rhel:
     pip:
       packages: [pyGPs]
 python-pygraph:
   debian: [python-pygraph]
-  centos: [python-pygraph]
+  rhel: [python-pygraph]
 python-pygraphviz:
   arch: [python2-pygraphviz]
   debian: [python-pygraphviz]
@@ -2313,7 +2313,7 @@ python-pygraphviz:
     pip:
       packages: [pygraphviz]
   slackware: [pygraphviz]
-  centos:
+  rhel:
     lucid: [python-pygraphviz]
     maverick: [python-pygraphviz]
     natty: [python-pygraphviz]
@@ -2333,7 +2333,7 @@ python-pyinotify:
   debian: [python-pyinotify]
   fedora: [python-inotify]
   gentoo: [dev-python/pyinotify]
-  centos: [python-pyinotify]
+  rhel: [python-pyinotify]
 python-pykalman:
   debian:
     pip:
@@ -2344,7 +2344,7 @@ python-pykalman:
   osx:
     pip:
       packages: [pykalman]
-  centos:
+  rhel:
     pip:
       packages: [pykalman]
 python-pylibftdi-pip:
@@ -2354,7 +2354,7 @@ python-pylibftdi-pip:
     pip: [pylibftdi]
   osx:
     pip: [pylibftdi]
-  centos:
+  rhel:
     pip: [pylibftdi]
 python-pylint:
   debian: [pylint]
@@ -2363,18 +2363,18 @@ python-pylint:
   osx:
     pip:
       packages: [pylint]
-  centos: [pylint]
+  rhel: [pylint]
 python-pymavlink:
   fedora:
     pip:
       packages: [pymavlink]
-  centos:
+  rhel:
     pip:
       packages: [pymavlink]
 python-pymodbus:
   debian: [python-pymodbus]
   fedora: [pymodbus]
-  centos:
+  rhel:
     precise: [python-pymodbus]
     raring: [python-pymodbus]
     saucy: [python-pymodbus]
@@ -2389,7 +2389,7 @@ python-pymongo:
   osx:
     pip:
       packages: [pymongo]
-  centos:
+  rhel:
     lucid: [python-pymongo]
     maverick: [python-pymongo]
     natty: [python-pymongo]
@@ -2418,14 +2418,14 @@ python-pymouse:
   osx:
     pip:
       packages: [pymouse]
-  centos:
+  rhel:
     pip:
       packages: [pymouse]
 python-pynfft:
   debian: [python-pynfft]
-  centos: [python-pynfft]
+  rhel: [python-pynfft]
 python-pynmea2:
-  centos:
+  rhel:
     pip:
       packages: [pynmea2]
 python-pyproj:
@@ -2436,7 +2436,7 @@ python-pyproj:
   osx:
     pip:
       packages: [pyproj]
-  centos: [python-pyproj]
+  rhel: [python-pyproj]
 python-pyquery:
   debian: [python-pyquery]
   fedora: [python-pyquery]
@@ -2444,18 +2444,18 @@ python-pyquery:
   osx:
     pip:
       packages: [pyquery]
-  centos: [python-pyquery]
+  rhel: [python-pyquery]
 python-pyramid:
   debian: [python-pyramid]
   fedora: [python-pyramid]
   gentoo: [dev-python/pyramid]
-  centos: [python-pyramid]
+  rhel: [python-pyramid]
 python-pyside:
   arch: [python2-pyside]
   debian: [python-pyside]
   fedora: [python-pyside]
   gentoo: [dev-python/pyside]
-  centos:
+  rhel:
     lucid: [python-pyside]
     maverick: [python-pyside]
     natty: [python-pyside]
@@ -2473,7 +2473,7 @@ python-pyside:
 python-pyside.qtuitools:
   debian: [python-pyside.qtuitools]
   fedora: [python-pyside]
-  centos:
+  rhel:
     lucid: [python-pyside.qtuitools]
     maverick: [python-pyside.qtuitools]
     natty: [python-pyside.qtuitools]
@@ -2492,22 +2492,22 @@ python-pysnmp:
   debian: [python-pysnmp4]
   fedora: [pysnmp]
   gentoo: [dev-python/pysnmp]
-  centos: [python-pysnmp4]
+  rhel: [python-pysnmp4]
 python-pytest:
   arch: [python2-pytest]
   debian: [python-pytest]
   fedora: [python-pytest]
   gentoo: [dev-python/pytest]
-  centos: [python-pytest]
+  rhel: [python-pytest]
 python-pytz-pip:
-  centos:
+  rhel:
     pip:
       packages: [pytz]
 python-pyudev:
   debian: [python-pyudev]
   fedora: [python-pyudev]
   gentoo: [dev-python/pyudev]
-  centos:
+  rhel:
     lucid: [python-pyudev]
     maverick: [python-pyudev]
     natty: [python-pyudev]
@@ -2526,14 +2526,14 @@ python-pyudev:
 python-pyusb-pip:
   debian:
     pip: [pyusb]
-  centos:
+  rhel:
     pip: [pyusb]
 python-pyuserinput:
-  centos:
+  rhel:
     pip:
       packages: [PyUserInput]
 python-pyvirtualdisplay-pip:
-  centos:
+  rhel:
     pip:
       packages: [pyvirtualdisplay]
 python-pyxhook-pip:
@@ -2546,13 +2546,13 @@ python-pyxhook-pip:
   osx:
     pip:
       packages: [pyxhook]
-  centos:
+  rhel:
     pip:
       packages: [pyxhook]
 python-qrencode:
   debian: [python-qrencode]
   gentoo: [media-gfx/qrencode-python]
-  centos: [python-qrencode]
+  rhel: [python-qrencode]
 python-qt-bindings:
   arch: [python2-pyqt4]
   debian:
@@ -2566,7 +2566,7 @@ python-qt-bindings:
   macports: [p27-pyqt4]
   opensuse: [python-qt4-devel]
   rhel: [PyQt4, PyQt4-devel, sip-devel]
-  centos:
+  rhel:
     lucid: [python-qt4, python-qt4-dev, python-sip-dev]
     oneiric: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, libgenrunner-dev, python-qt4, python-qt4-dev, python-sip-dev]
     precise: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, libgenrunner-dev, python-qt4, python-qt4-dev, python-sip-dev]
@@ -2585,7 +2585,7 @@ python-qt-bindings-gl:
   fedora: [PyQt4]
   gentoo: ['dev-python/pyside[opengl]', 'dev-python/PyQt4[opengl]']
   opensuse: [python-qt4-devel]
-  centos:
+  rhel:
     lucid: [python-qt4-gl]
     maverick: [python-qt4-gl]
     natty: [python-qt4-gl]
@@ -2605,7 +2605,7 @@ python-qt-bindings-qwt5:
   fedora: [PyQwt-devel]
   gentoo: ['dev-python/pyqwt:5']
   macports: [qwt52]
-  centos:
+  rhel:
     lucid: [python-qwt5-qt4]
     maverick: [python-qwt5-qt4]
     natty: [python-qwt5-qt4]
@@ -2623,12 +2623,12 @@ python-qt-bindings-webkit:
   debian: [python-qt4]
   fedora: [PyQt4]
   gentoo: ['dev-python/pyside[webkit]', 'dev-python/PyQt4[webkit]']
-  centos: [python-qt4]
+  rhel: [python-qt4]
 python-qt4-gl:
   debian: [python-qt4-gl]
   fedora: [PyQt4]
   gentoo: ['dev-python/pyside[opengl]', 'dev-python/PyQt4[opengl]']
-  centos: [python-qt4-gl]
+  rhel: [python-qt4-gl]
 python-qt5-bindings:
   arch: [python2-pyqt5]
   debian:
@@ -2639,7 +2639,7 @@ python-qt5-bindings:
   gentoo: [dev-python/PyQt5]
   opensuse: [python-qt5]
   slackware: [PyQt5]
-  centos:
+  rhel:
     artful: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
     wily: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
@@ -2655,7 +2655,7 @@ python-qt5-bindings-gl:
   gentoo: ['dev-python/PyQt5[opengl]']
   opensuse: [python-qt5]
   slackware: [PyQt5]
-  centos:
+  rhel:
     wily: [python-pyqt5.qtopengl]
     xenial: [python-pyqt5.qtopengl]
     yakkety: [python-pyqt5.qtopengl]
@@ -2668,7 +2668,7 @@ python-qt5-bindings-webkit:
     stretch: [python-pyqt5.qtwebkit]
   fedora: [python-qt5]
   gentoo: ['dev-python/PyQt5[webkit]']
-  centos:
+  rhel:
     wily: [python-pyqt5.qtwebkit]
     xenial: [python-pyqt5.qtwebkit]
     yakkety: [python-pyqt5.qtwebkit]
@@ -2678,7 +2678,7 @@ python-qwt5-qt4:
   debian: [python-qwt5-qt4]
   fedora: [PyQwt]
   gentoo: ['dev-python/pyqwt:5']
-  centos:
+  rhel:
     lucid: [python-qwt5-qt4]
     maverick: [python-qwt5-qt4]
     natty: [python-qwt5-qt4]
@@ -2692,7 +2692,7 @@ python-rdflib:
   debian: [python-rdflib]
   fedora: [python-rdflib]
   gentoo: [dev-python/rdflib]
-  centos:
+  rhel:
     lucid: [python-rdflib]
     maverick: [python-rdflib]
     natty: [python-rdflib]
@@ -2703,16 +2703,16 @@ python-rdflib:
     saucy: [python-rdflib]
     trusty: [python-rdflib]
 python-readchar-pip:
-  centos:
+  rhel:
     pip:
       packages: [readchar]
 python-redis:
   debian: [python-redis]
   fedora: [python-redis]
   gentoo: [dev-python/redis-py]
-  centos: [python-redis]
+  rhel: [python-redis]
 python-redis-pip:
-  centos:
+  rhel:
     pip:
       packages: [redis]
 python-requests:
@@ -2722,7 +2722,7 @@ python-requests:
   osx:
     pip:
       packages: [requests]
-  centos:
+  rhel:
     lucid: [python-requests]
     maverick: [python-requests]
     natty: [python-requests]
@@ -2749,12 +2749,12 @@ python-requests-oauthlib:
   debian: [python-requests-oauthlib]
   fedora: [python-requests-oauthlib]
   gentoo: [dev-python/requests-oauthlib]
-  centos: [python-requests-oauthlib]
+  rhel: [python-requests-oauthlib]
 python-responses-pip:
   osx:
     pip:
       packages: [responses]
-  centos:
+  rhel:
     pip:
       packages: [responses]
 python-rosdep:
@@ -2769,7 +2769,7 @@ python-rosdep:
   slackware:
     pip:
       packages: [rosdep]
-  centos:
+  rhel:
     lucid: [python-rosdep]
     maverick: [python-rosdep]
     natty: [python-rosdep]
@@ -2798,7 +2798,7 @@ python-rosdistro:
     macports: [py27-rosdistro]
     pip:
       packages: [rosdistro]
-  centos:
+  rhel:
     artful: [python-rosdistro]
     lucid: [python-rosdistro]
     maverick: [python-rosdistro]
@@ -2826,7 +2826,7 @@ python-rosinstall:
   fedora: [python-rosinstall]
   gentoo: [dev-python/rosinstall]
   macports: [p27-rosinstall]
-  centos:
+  rhel:
     artful: [python-rosinstall]
     lucid: [python-rosinstall]
     maverick: [python-rosinstall]
@@ -2852,7 +2852,7 @@ python-rosinstall-generator:
   fedora: [python-rosinstall_generator]
   gentoo: [dev-python/rosinstall_generator]
   macports: [py27-rosinstall-generator]
-  centos:
+  rhel:
     lucid: [python-rosinstall-generator]
     maverick: [python-rosinstall-generator]
     natty: [python-rosinstall-generator]
@@ -2876,7 +2876,7 @@ python-rospkg:
   slackware:
     pip:
       packages: [rospkg]
-  centos:
+  rhel:
     lucid: [python-rospkg]
     maverick: [python-rospkg]
     natty: [python-rospkg]
@@ -2913,7 +2913,7 @@ python-rpi.gpio:
       pip:
         packages: [RPi.GPIO]
     '26': [python-rpi-gpio]
-  centos:
+  rhel:
     artful: [python-rpi.gpio]
     bionic: [python-rpi.gpio]
     trusty:
@@ -2939,7 +2939,7 @@ python-rrdtool:
   debian: [python-rrdtool]
   fedora: [rrdtool-python]
   gentoo: [net-analyzer/rrdtool]
-  centos:
+  rhel:
     lucid: [python-rrdtool]
     maverick: [python-rrdtool]
     natty: [python-rrdtool]
@@ -2955,7 +2955,7 @@ python-ruamel.yaml:
     jessie: [python-ruamel.yaml]
     stretch: [python-ruamel.yaml]
   fedora: [python-ruamel-yaml]
-  centos:
+  rhel:
     artful: [python-ruamel.yaml]
     bionic: [python-ruamel.yaml]
     xenial: [python-ruamel.yaml]
@@ -2965,7 +2965,7 @@ python-scapy:
   debian: [python-scapy]
   fedora: [scapy]
   gentoo: [dev-python/scapy-python3]
-  centos:
+  rhel:
     lucid: [python-scapy]
     maverick: [python-scapy]
     natty: [python-scapy]
@@ -2987,7 +2987,7 @@ python-scipy:
     pip:
       depends: [gfortran]
       packages: [scipy]
-  centos:
+  rhel:
     lucid: [python-scipy]
     maverick: [python-scipy]
     natty: [python-scipy]
@@ -3011,19 +3011,19 @@ python-scipy:
     zesty: [python-scipy]
     zesty_python3: [python3-scipy]
 python-selenium-pip:
-  centos:
+  rhel:
     pip:
       packages: [selenium]
 python-semver:
   debian: [python-semver]
   fedora: [python-semver]
-  centos: [python-semver]
+  rhel: [python-semver]
 python-serial:
   arch: [python2-pyserial]
   debian: [python-serial]
   fedora: [pyserial]
   gentoo: [dev-python/pyserial]
-  centos:
+  rhel:
     artful: [python-serial]
     artful_python3: [python3-serial]
     bionic: [python-serial]
@@ -3059,7 +3059,7 @@ python-setuptools:
   osx:
     pip:
       packages: [setuptools]
-  centos:
+  rhel:
     lucid: [python-setuptools]
     maverick: [python-setuptools]
     natty: [python-setuptools]
@@ -3087,7 +3087,7 @@ python-shapely:
   osx:
     pip:
       packages: [shapely]
-  centos:
+  rhel:
     lucid: [python-shapely]
     maverick: [python-shapely]
     natty: [python-shapely]
@@ -3113,12 +3113,12 @@ python-simplejson:
   debian: [python-simplejson]
   fedora: [python-simplejson]
   gentoo: [dev-python/simplejson]
-  centos: [python-simplejson]
+  rhel: [python-simplejson]
 python-singledispatch:
   debian: [python-singledispatch]
   fedora: [python-singledispatch]
   gentoo: [virtual/python-singledispatch]
-  centos: [python-singledispatch]
+  rhel: [python-singledispatch]
 python-sip:
   arch: [sip, python2-sip]
   debian: [python-sip-dev]
@@ -3131,7 +3131,7 @@ python-sip:
   slackware:
     slackpkg:
       packages: [sip]
-  centos:
+  rhel:
     lucid: [python-sip-dev]
     maverick: [python-sip-dev]
     natty: [python-sip-dev]
@@ -3162,7 +3162,7 @@ python-six:
   debian: [python-six]
   fedora: [python-six]
   gentoo: [dev-python/six]
-  centos:
+  rhel:
     artful: [python-six]
     saucy: [python-six]
     trusty: [python-six]
@@ -3179,7 +3179,7 @@ python-skimage:
   osx:
     pip:
       packages: [scikit-image]
-  centos:
+  rhel:
     lucid:
       pip:
         packages: [scikit-image]
@@ -3207,7 +3207,7 @@ python-skimage-pip:
   osx:
     pip:
       packages: [scikit-image]
-  centos:
+  rhel:
     pip:
       packages: [scikit-image]
 python-sklearn:
@@ -3217,7 +3217,7 @@ python-sklearn:
   osx:
     pip:
       packages: [scikit-learn]
-  centos:
+  rhel:
     lucid: []
     maverick: []
     natty: []
@@ -3241,7 +3241,7 @@ python-slackclient-pip:
   osx:
     pip:
       packages: [slackclient]
-  centos:
+  rhel:
     pip:
       packages: [slackclient]
 python-slacker-cli:
@@ -3254,20 +3254,20 @@ python-slacker-cli:
   osx:
     pip:
       packages: [slacker-cli]
-  centos:
+  rhel:
     pip:
       packages: [slacker-cli]
 python-smbus:
   debian: [python-smbus]
-  centos: [python-smbus]
+  rhel: [python-smbus]
 python-sortedcontainers-pip:
-  centos:
+  rhel:
     pip:
       packages: [sortedcontainers]
 python-sparqlwrapper:
   debian: [python-sparqlwrapper]
   gentoo: [dev-python/sparql-wrapper]
-  centos:
+  rhel:
     trusty: [python-sparqlwrapper]
     utopic: [python-sparqlwrapper]
     vivid: [python-sparqlwrapper]
@@ -3281,7 +3281,7 @@ python-speechrecognition-pip:
   osx:
     pip:
       packages: [speechrecognition]
-  centos:
+  rhel:
     pip:
       packages: [speechrecognition]
 python-sphinx:
@@ -3295,7 +3295,7 @@ python-sphinx:
   osx:
     pip:
       packages: [Sphinx]
-  centos:
+  rhel:
     lucid: [python-sphinx]
     maverick: [python-sphinx]
     natty: [python-sphinx]
@@ -3317,7 +3317,7 @@ python-sphinx-argparse:
   debian:
     buster: [python-sphinx-argparse]
     stretch: [python-sphinx-argparse]
-  centos:
+  rhel:
     xenial: [python-sphinx-argparse]
     xenial_python3: [python3-sphinx-argparse]
     yakkety: [python-sphinx-argparse]
@@ -3329,7 +3329,7 @@ python-sphinx-rtd-theme:
     buster: [python-sphinx-rtd-theme]
     jessie: [python-sphinx-rtd-theme]
     stretch: [python-sphinx-rtd-theme]
-  centos:
+  rhel:
     xenial: [python-sphinx-rtd-theme]
     xenial_python3: [python3-sphinx-rtd-theme]
     yakkety: [python-sphinx-rtd-theme]
@@ -3340,7 +3340,7 @@ python-sqlalchemy:
   debian: [python-sqlalchemy]
   fedora: [python-sqlalchemy]
   gentoo: [dev-python/sqlalchemy]
-  centos:
+  rhel:
     precise: [python-sqlalchemy]
     quantal: [python-sqlalchemy]
     raring: [python-sqlalchemy]
@@ -3358,12 +3358,12 @@ python-support:
   osx:
     pip:
       packages: []
-  centos: [python-support]
+  rhel: [python-support]
 python-svn:
   debian: [python-svn]
   fedora: [pysvn]
   gentoo: [dev-python/pysvn]
-  centos:
+  rhel:
     lucid: [python-svn]
     maverick: [python-svn]
     natty: [python-svn]
@@ -3377,7 +3377,7 @@ python-sympy:
   debian: [python-sympy]
   fedora: [sympy]
   gentoo: [dev-python/sympy]
-  centos:
+  rhel:
     lucid: [python-sympy]
     maverick: [python-sympy]
     natty: [python-sympy]
@@ -3394,7 +3394,7 @@ python-sympy:
 python-tablib:
   debian: [python-tablib]
   fedora: [python-tablib]
-  centos: [python-tablib]
+  rhel: [python-tablib]
 python-tablib-pip:
   debian:
     pip:
@@ -3402,7 +3402,7 @@ python-tablib-pip:
   fedora:
     pip:
       packages: [tablib]
-  centos:
+  rhel:
     pip:
       packages: [tablib]
 python-tabulate:
@@ -3413,7 +3413,7 @@ python-tabulate:
     '23': [python-tabulate]
     '24': [python-tabulate]
   gentoo: [dev-python/tabulate]
-  centos:
+  rhel:
     wily: [python-tabulate]
     xenial: [python-tabulate]
 python-tabulate-pip:
@@ -3426,13 +3426,13 @@ python-tabulate-pip:
   osx:
     pip:
       packages: [tabulate]
-  centos:
+  rhel:
     pip:
       packages: [tabulate]
 python-tblib:
   debian: [python-tblib]
   gentoo: [dev-python/tblib]
-  centos:
+  rhel:
     saucy: [python-tblib]
     trusty: [python-tblib]
     vivid: [python-tblib]
@@ -3440,7 +3440,7 @@ python-tblib:
     xenial: [python-tblib]
     yakkety: [python-tblib]
 python-telegram-bot:
-  centos:
+  rhel:
     pip:
       packages: [python-telegram-bot]
 python-tensorflow-pip:
@@ -3453,7 +3453,7 @@ python-tensorflow-pip:
   osx:
     pip:
       packages: [tensorflow]
-  centos:
+  rhel:
     pip:
       packages: [tensorflow]
 python-termcolor:
@@ -3469,7 +3469,7 @@ python-termcolor:
   osx:
     pip:
       packages: [termcolor]
-  centos:
+  rhel:
     trusty: [python-termcolor]
     trusty_python3: [python3-termcolor]
     utopic: [python-termcolor]
@@ -3481,12 +3481,12 @@ python-testscenarios:
   debian: [python-testscenarios]
   fedora: [python-testscenarios]
   gentoo: [dev-python/testscenarios]
-  centos: [python-testscenarios]
+  rhel: [python-testscenarios]
 python-testtools:
   debian: [python-testtools]
   fedora: [python-testtools]
   gentoo: [dev-python/testtools]
-  centos: [python-testtools]
+  rhel: [python-testtools]
 python-texttable:
   arch: [python2-texttable]
   debian:
@@ -3498,7 +3498,7 @@ python-texttable:
   osx:
     pip:
       packages: [texttable]
-  centos:
+  rhel:
     precise:
       pip:
         packages: [texttable]
@@ -3513,7 +3513,7 @@ python-texttable:
 python-tftpy:
   debian: [python-tftpy]
   fedora: [python-tftpy]
-  centos: [python-tftpy]
+  rhel: [python-tftpy]
 python-theano:
   arch: [python-theano]
   debian:
@@ -3527,7 +3527,7 @@ python-theano:
   osx:
     pip:
       packages: [Theano]
-  centos:
+  rhel:
     precise:
       pip:
         packages: [Theano]
@@ -3560,19 +3560,19 @@ python-tilestache:
     '24': [python-tilestache]
     heisenbug: [python-tilestache]
     schrödinger’s: [python-tilestache]
-  centos: [tilestache]
+  rhel: [tilestache]
 python-tinydb-pip:
   debian:
     pip:
       packages: [tinydb]
-  centos:
+  rhel:
     pip:
       packages: [tinydb]
 python-tk:
   arch: [python2, tk]
   debian: [python-tk]
   fedora: [blt, tcl, tix, tk]
-  centos:
+  rhel:
     lucid: [python-tk]
     maverick: [python-tk]
     natty: [python-tk]
@@ -3599,9 +3599,9 @@ python-tornado:
   osx:
     pip:
       packages: [tornado]
-  centos: [python-tornado]
+  rhel: [python-tornado]
 python-tornado-couchdb-pip:
-  centos:
+  rhel:
     pip:
       packages: [tornado-couchdb]
 python-tornado-pip:
@@ -3614,7 +3614,7 @@ python-tornado-pip:
   osx:
     pip:
       packages: [tornado]
-  centos:
+  rhel:
     pip:
       packages: [tornado]
 python-tqdm:
@@ -3622,7 +3622,7 @@ python-tqdm:
     buster: [python-tqdm]
     stretch: [python-tqdm]
   fedora: [python-tqdm]
-  centos:
+  rhel:
     artful: [python-tqdm]
     saucy:
       pip:
@@ -3652,14 +3652,14 @@ python-trep:
     pip:
       packages: [trep]
   macports: [py27-trep]
-  centos:
+  rhel:
     pip:
       packages: [trep]
 python-twisted-bin:
   arch: [python2-twisted]
   debian: [python-twisted-bin]
   fedora: [python-twisted-core]
-  centos:
+  rhel:
     lucid: [python-twisted-bin]
     maverick: [python-twisted-bin]
     natty: [python-twisted-bin]
@@ -3676,13 +3676,13 @@ python-twisted-core:
   debian: [python-twisted-core]
   fedora: [python-twisted-core]
   gentoo: [dev-python/twisted-core]
-  centos: [python-twisted-core]
+  rhel: [python-twisted-core]
 python-twisted-web:
   arch: [python2-twisted]
   debian: [python-twisted-web]
   fedora: [python-twisted-web]
   gentoo: [dev-python/twisted-web]
-  centos:
+  rhel:
     lucid: [python-twisted-web]
     maverick: [python-twisted-web]
     natty: [python-twisted-web]
@@ -3701,7 +3701,7 @@ python-twitter:
     stretch: [python-twitter]
   fedora: [python-twitter]
   gentoo: [dev-python/python-twitter]
-  centos:
+  rhel:
     lucid: [python-twitter]
     maverick: [python-twitter]
     natty: [python-twitter]
@@ -3716,9 +3716,9 @@ python-tz:
   debian: [python-tz]
   fedora: [pytz]
   gentoo: [dev-python/pytz]
-  centos: [python-tz]
+  rhel: [python-tz]
 python-tzlocal-pip:
-  centos:
+  rhel:
     pip:
       packages: [tzlocal]
 python-ujson:
@@ -3730,7 +3730,7 @@ python-ujson:
   osx:
     pip:
       packages: [ujson]
-  centos:
+  rhel:
     artful: [python-ujson]
     saucy:
       pip:
@@ -3758,18 +3758,18 @@ python-urlgrabber:
     pip:
       packages: [pycurl, urlgrabber]
   slackware: [urlgrabber]
-  centos: [python-urlgrabber]
+  rhel: [python-urlgrabber]
 python-urllib3:
   arch: [python-urllib3]
   debian: [python-urllib3]
   fedora: [python-urllib3]
   gentoo: [dev-python/urllib3]
-  centos: [python-urllib3]
+  rhel: [python-urllib3]
 python-usb:
   debian: [python-usb]
   fedora: [pyusb]
   gentoo: [dev-python/pyusb]
-  centos: [python-usb]
+  rhel: [python-usb]
 python-utm-pip:
   debian:
     pip:
@@ -3780,11 +3780,11 @@ python-utm-pip:
   osx:
     pip:
       packages: [utm]
-  centos:
+  rhel:
     pip:
       packages: [utm]
 python-validictory-pip:
-  centos:
+  rhel:
     pip:
       packages: [validictory]
 python-vcstool:
@@ -3798,12 +3798,12 @@ python-virtualenv:
   debian: [python-virtualenv]
   fedora: [python-virtualenv]
   gentoo: [dev-python/virtualenv]
-  centos: [python-virtualenv]
+  rhel: [python-virtualenv]
 python-visual:
   debian: [python-visual]
   fedora: [python-visual]
   gentoo: [dev-python/visual]
-  centos: [python-visual]
+  rhel: [python-visual]
 python-vlc-pip:
   debian:
     pip:
@@ -3814,7 +3814,7 @@ python-vlc-pip:
   osx:
     pip:
       packages: [python-vlc]
-  centos:
+  rhel:
     pip:
       packages: [python-vlc]
 python-vtk:
@@ -3822,7 +3822,7 @@ python-vtk:
   debian: [python-vtk]
   fedora: [vtk-python]
   gentoo: [dev-python/pyvtk]
-  centos:
+  rhel:
     saucy: [python-vtk]
     trusty: [python-vtk]
     utopic: [python-vtk]
@@ -3833,21 +3833,21 @@ python-w1thermsensor-pip:
   debian:
     pip:
       packages: [w1thermsensor]
-  centos:
+  rhel:
     pip:
       packages: [w1thermsensor]
 python-waitress:
   debian: [python-waitress]
   fedora: [python-waitress]
   gentoo: [dev-python/waitress]
-  centos: [python-waitress]
+  rhel: [python-waitress]
 python-walrus-pip:
-  centos:
+  rhel:
     pip:
       packages: [walrus]
 python-watchdog:
   debian: [python-watchdog]
-  centos:
+  rhel:
     artful: [python-watchdog]
     xenial: [python-watchdog]
     yakkety: [python-watchdog]
@@ -3856,12 +3856,12 @@ python-webob:
   debian: [python-webob]
   fedora: [python-webob]
   gentoo: [dev-python/webob]
-  centos: [python-webob]
+  rhel: [python-webob]
 python-websocket:
   debian: [python-websocket]
   fedora: [python-websocket-client]
   gentoo: [dev-python/websocket-client]
-  centos:
+  rhel:
     precise:
       pip:
         packages: [websocket-client]
@@ -3890,19 +3890,19 @@ python-webtest:
   debian: [python-webtest]
   fedora: [python-webtest]
   gentoo: [dev-python/webtest]
-  centos: [python-webtest]
+  rhel: [python-webtest]
 python-werkzeug:
   debian: [python-werkzeug]
   fedora: [python-werkzeug]
   gentoo: [dev-python/werkzeug]
-  centos: [python-werkzeug]
+  rhel: [python-werkzeug]
 python-wheel:
   debian: [python-wheel]
   fedora: [python-wheel]
   gentoo: [dev-python/wheel]
-  centos: [python-wheel]
+  rhel: [python-wheel]
 python-ws4py-pip:
-  centos:
+  rhel:
     pip:
       packages: [ws4py]
 python-wstool:
@@ -3912,32 +3912,32 @@ python-wstool:
   fedora: [python-wstool]
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
-  centos: [python-wstool]
+  rhel: [python-wstool]
 python-wtforms:
   debian: [python-wtforms]
   fedora: [python-wtforms]
   gentoo: [dev-python/wtforms]
-  centos: [python-wtforms]
+  rhel: [python-wtforms]
 python-wxtools:
   arch: [wxpython]
   debian: [python-wxtools]
   fedora: [wxPython]
   gentoo: [dev-python/wxpython]
-  centos: [python-wxtools]
+  rhel: [python-wxtools]
 python-xdot:
   debian: [xdot]
   fedora: [python-xdot]
   gentoo: [media-gfx/xdot]
-  centos: [xdot]
+  rhel: [xdot]
 python-xlib:
   debian: [python-xlib]
   fedora: [python-xlib]
   gentoo: [dev-python/python-xlib]
-  centos: [python-xlib]
+  rhel: [python-xlib]
 python-xlrd:
   debian: [python-xlrd]
   fedora: [python-xlrd]
-  centos: [python-xlrd]
+  rhel: [python-xlrd]
 python-xmltodict:
   debian:
     buster: [python-xmltodict]
@@ -3945,14 +3945,14 @@ python-xmltodict:
     stretch: [python-xmltodict]
   fedora: [python-xmltodict]
   gentoo: [dev-python/xmltodict]
-  centos:
+  rhel:
     artful: [python-xmltodict]
     xenial: [python-xmltodict]
     yakkety: [python-xmltodict]
     zesty: [python-xmltodict]
 python-yaml:
   arch: [python2-yaml]
-  centos: [PyYAML]
+  rhel: [PyYAML]
   debian: [python-yaml]
   fedora: [PyYAML]
   freebsd: [py27-yaml]
@@ -3965,7 +3965,7 @@ python-yaml:
       packages: [PyYAML]
   rhel: [PyYAML]
   slackware: [PyYAML]
-  centos:
+  rhel:
     lucid: [python-yaml]
     maverick: [python-yaml]
     natty: [python-yaml]
@@ -3990,13 +3990,13 @@ python-zbar:
   debian: [python-zbar]
   fedora: [zbar-pygtk]
   gentoo: ['media-gfx/zbar[python]']
-  centos: [python-zbar]
+  rhel: [python-zbar]
 python-zmq:
   arch: [python2-pyzmq]
   debian: [python-zmq]
   fedora: [python-zmq]
   gentoo: [dev-python/pyzmq]
-  centos:
+  rhel:
     lucid: [python-zmq]
     maverick: [python-zmq]
     natty: [python-zmq]
@@ -4017,43 +4017,43 @@ python3-babeltrace:
     buster: [python3-babeltrace]
     jessie: [python3-babeltrace]
     stretch: [python3-babeltrace]
-  centos:
+  rhel:
     wily: [python3-babeltrace]
     xenial: [python3-babeltrace]
 python3-dev:
   debian: [python3-dev]
   gentoo: ['=dev-lang/python-3*']
-  centos: [python3-dev]
+  rhel: [python3-dev]
 python3-empy:
   debian:
     buster: [python3-empy]
     jessie: [python3-empy]
     stretch: [python3-empy]
-  centos: [python3-empy]
+  rhel: [python3-empy]
 python3-flake8:
   debian:
     buster: [python3-flake8]
     jessie: [python3-flake8]
     stretch: [python3-flake8]
-  centos: [python3-flake8]
+  rhel: [python3-flake8]
 python3-nose:
   debian: [python3-nose]
-  centos: [python3-nose]
+  rhel: [python3-nose]
 python3-pep8:
   debian:
     buster: [python3-pep8]
     jessie: [python3-pep8]
     stretch: [python3-pep8]
-  centos: [python3-pep8]
+  rhel: [python3-pep8]
 python3-pkg-resources:
   debian: [python3-pkg-resources]
-  centos: [python3-pkg-resources]
+  rhel: [python3-pkg-resources]
 python3-ruamel.yaml:
   debian:
     buster: [python3-ruamel.yaml]
     jessie: [python3-ruamel.yaml]
     stretch: [python3-ruamel.yaml]
-  centos:
+  rhel:
     artful: [python3-ruamel.yaml]
     bionic: [python3-ruamel.yaml]
     xenial: [python3-ruamel.yaml]
@@ -4061,12 +4061,12 @@ python3-ruamel.yaml:
     zesty: [python3-ruamel.yaml]
 python3-setuptools:
   debian: [python3-setuptools]
-  centos: [python3-setuptools]
+  rhel: [python3-setuptools]
 python3-venv:
   debian: [python3-venv]
-  centos: [python3-venv]
+  rhel: [python3-venv]
 python3-yaml:
-  centos: [python3-yaml]
+  rhel: [python3-yaml]
 rosbag-metadata-pip:
   debian:
     pip:
@@ -4074,14 +4074,14 @@ rosbag-metadata-pip:
   fedora:
     pip:
       packages: [rosbag-metadata]
-  centos:
+  rhel:
     pip:
-      packages: [rosbag-metadata]
+      packages: [rosbag_metadata]
 rpy2:
   arch: [python-rpy2]
   debian: [python-rpy2]
   gentoo: ['=dev-python/rpy-2*']
-  centos: [python-rpy2]
+  rhel: [python-rpy2]
 sphinxcontrib-bibtex-pip:
   debian:
     pip:
@@ -4092,16 +4092,16 @@ sphinxcontrib-bibtex-pip:
   osx:
     pip:
       packages: [sphinxcontrib-bibtex]
-  centos:
+  rhel:
     pip:
       packages: [sphinxcontrib-bibtex]
 tilestache:
   debian: [tilestache]
   fedora: [python-tilestache]
-  centos: [tilestache]
+  rhel: [tilestache]
 wxpython:
   arch: [wxpython]
-  centos: [wxPython-devel]
+  rhel: [wxPython-devel]
   debian:
     buster: [python-wxgtk3.0]
     jessie: [python-wxgtk3.0]
@@ -4114,7 +4114,7 @@ wxpython:
   macports: [py27-wxpython, py27-gobject, py27-gtk, py27-cairo]
   opensuse: [python-wxGTK]
   rhel: [wxPython-devel]
-  centos:
+  rhel:
     lucid: [python-wxgtk2.8]
     maverick: [python-wxgtk2.8]
     natty: [python-wxgtk2.8]
@@ -4135,7 +4135,7 @@ yapf:
   debian:
     buster: [yapf]
     stretch: [yapf]
-  centos:
+  rhel:
     artful: [yapf]
     saucy:
       pip:
